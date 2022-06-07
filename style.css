@@ -1,0 +1,119 @@
+    * {
+        padding: 0%;
+        margin: 0%;
+    }
+    
+    header {
+        background-color: rgb(18, 41, 112);
+        height: 1500px;
+    }
+    
+    .top-header {
+        background-color: lightsalmon;
+        height: 250px;
+        width: 1200px;
+        margin-left: 85px;
+        /* display: flex; */
+    }
+    
+    .logo {
+        /* background-color: wheat; */
+        height: 70%;
+        width: 25%;
+        margin-left: 450px;
+    }
+    
+    img {
+        height: 100%;
+        width: 100%;
+    }
+    
+    .heading {
+        font-size: 60px;
+        font-weight: 900;
+        text-align: center;
+        color: navy;
+        text-shadow: 10px 6px 10px white;
+        word-spacing: 50px;
+    }
+    
+    .menu {
+        height: 50px;
+        width: 50%;
+        /* background-color: green; */
+        margin-left: 350px;
+        word-spacing: 30px;
+    }
+    
+    .menu nav ul {
+        float: right;
+        margin-right: 100px;
+    }
+    
+    .menu nav ul li {
+        display: inline-block;
+        padding: 5px;
+        margin-top: 10px;
+    }
+    
+    .menu nav ul li a {
+        color: white;
+        text-decoration: none;
+        text-transform: uppercase;
+    }
+    
+    .menu nav ul li:hover {
+        background-color: pink;
+        padding: 5px 5px;
+        border-radius: 10px;
+    }
+    
+    .menu nav ul li a:hover {
+        color: black;
+    }
+    
+    .btm-h {
+        height: 1250px;
+        display: flex;
+        flex-direction: column;
+    }
+    
+    .btm-h-image {
+        height: 350px;
+        width: 100%;
+        margin: auto;
+    }
+    
+    .btm-h-text {
+        font-size: 30px;
+        background-color: burlywood;
+    }
+    
+    .body {
+        display: flex;
+        flex-direction: row;
+        height: 600px;
+        width: 100%;
+        justify-content: space-evenly;
+        background-color: black;
+    }
+    
+    .body-image-1 {
+        height: 500px;
+        width: 48%;
+        margin-top: 70px;
+    }
+    
+    .body-image-2 {
+        height: 500px;
+        width: 48%;
+        margin-top: 70px;
+    }
+    
+    footer {
+        background-color: lightsalmon;
+        color: black;
+        font-size: 30px;
+        text-align: center;
+        margin: auto;
+    }
